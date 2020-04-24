@@ -339,6 +339,6 @@ void loop() {
     Comm.println();
   } // done with all sensors
   Comm.println(F("------------------------------------------------"));
-  delay(1000);
+  delay(3000);
   digitalWrite(pin_LED, digitalRead(pin_LED) == HIGH ? LOW : HIGH);
 }
